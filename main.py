@@ -10,8 +10,8 @@ import matplotlib.pyplot as plt
 def load_excel(file_path):
     return pd.read_excel(file_path)
 
-file_path = 'Results_data_SmartWifiPods_deepdive_Okt23_translated - Copy.xlsx'
-column_name = 'Q1.3'
+file_path = 'input_excel.xlsx'
+column_name = 'Responses'
 
 
 df = load_excel(file_path)
